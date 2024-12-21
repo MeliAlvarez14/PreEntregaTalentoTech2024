@@ -104,11 +104,13 @@
                 <label for="apellido">Apellido:</label>
                 <input id="apellido" type="text" name="apellido">
                 <label for="correoContacto">Correo:</label>
-                <input id="correoContacto" type="email" name="correoContacto" required>
+                <span id="error"></span>
+                <input id="correoContacto" type="text" name="correoContacto">
                 <label for="telefonoContacto">Teléfono:</label>
-                <input id="telefonoContacto" type="tel" name="telefonoContacto" required>
-                <textarea id="consulta" name="consulta" rows="5" cols="35">¿Cuál es su consulta?</textarea>
-                <button>Enviar</button>
+                <span id="errorTelefono"></span>
+                <input id="telefonoContacto" type="tel" name="telefonoContacto">
+                <textarea id="consulta" name="consulta" rows="5" cols="35" placeholder="¿Cuál es su consulta?"></textarea>
+                <button type="submit">Enviar</button>
             </form>
 
             <div id="infoUbicacion">
@@ -126,5 +128,6 @@
         <p>©2024 Alvarez Melina. Todos los derechos reservados.</p>
     </footer>
     
+    <script src="./scripts/formulario.js"></script>
 </body>
 </html>
