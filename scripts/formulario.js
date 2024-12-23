@@ -45,7 +45,6 @@ formulario.addEventListener('submit', (evento) => {
     else{
         evento.preventDefault();
     }
-
-
+    
 })
 

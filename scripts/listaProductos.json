@@ -1,0 +1,224 @@
+[
+    {
+        "id":1,
+        "producto":"Cable Unipolar 1x0.5mm Blanco x 100mts",
+        "precio":"85.000",
+        "image":"materiales/unipolarBlanco.jpg"
+    },
+    {
+        "id":2,
+        "producto":"Cable Unipolar 1x0.5mm Negro x 100mts",
+        "precio":"85.000",
+        "image":"materiales/unipolarNegro.jpg"
+    },
+    {
+        "id":3,
+        "producto":"Cable Unipolar 1x0.5mm Rojo x 100mts",
+        "precio":"85.000",
+        "image":"materiales/unipolarRojo.jpg"
+    },
+    {
+        "id":4,
+        "producto":"Cable UTP Cat 6e GigaLan Exterior Blanco x mts",
+        "precio":"5.500",
+        "image":"materiales/cableUTPBlanco.jpg"
+    },
+    {
+        "id":5,
+        "producto":"Cable UTP Cat 5e Soho Plus Negro x mts",
+        "precio":"2.300",
+        "image":"materiales/cableUTPNegro.jpg"
+    },
+    {
+        "id":6,
+        "producto":"Cable UTP Cat 6e Interior Azul x mts",
+        "precio":"4.500",
+        "image":"materiales/cableUTPAzul.jpg"
+    },
+    
+    {
+        "id":7,
+        "producto":"Llave De Luz Armada Sica Blanco",
+        "precio":"1.700",
+        "image":"materiales/llaveLuzArmadaSimple.jpg"
+    },
+    {
+        "id":8,
+        "producto":"Llave De Luz Armada 2 Puntos Sica Blanco",
+        "precio":"2.000",
+        "image":"materiales/llaveLuzArmadaDoble.jpg"
+    },
+    {
+        "id":9,
+        "producto":"Llave De Luz Armada 3 Tres Puntos Sica Blanco",
+        "precio":"2.100",
+        "image":"materiales/llaveLuzArmadaTripleInterruptor.jpg"
+    },
+    {
+        "id":10,
+        "producto":"Llave Toma Corriente Simple Siemens",
+        "precio":"2.320",
+        "image":"materiales/tomaCorrienteSimple.jpg"
+    },
+    {
+        "id":11,
+        "producto":"Llave Toma Corriente Doble Siemens",
+        "precio":"2.700",
+        "image":"materiales/dobleTomaCorriente.jpg"
+    },
+    {
+        "id":12,
+        "producto":"Llave Toma Corriente Simple Exterior Siemens",
+        "precio":"3.000",
+        "image":"materiales/tomaCorrienteExterior.jpg"
+    },
+    
+    {
+        "id":13,
+        "producto":"Llave Termica Termomagnetica Chint",
+        "precio":"15.200",
+        "image":"materiales/llaveTermicaCHINT.jpg"
+    },
+    {
+        "id":14,
+        "producto":"Llave Termica Termomagnetica Bipolar Baw",
+        "precio":"20.200",
+        "image":"materiales/llaveTermicaBipolarBAW.png"
+    },
+    {
+        "id":15,
+        "producto":"Llave Termica Termomagnetica SICA Original",
+        "precio":"24.200",
+        "image":"materiales/llaveTermicaSICA.jpg"
+    },
+    {
+        "id":16,
+        "producto":"Disyuntor Interruptor Diferencial Bipolar 40a Baw",
+        "precio":"23.900",
+        "image":"materiales/disyuntorBAW.jpg"
+    },
+    {
+        "id":17,
+        "producto":"Disyuntor Diferencial Bipolar 30a Chint",
+        "precio":"20.900",
+        "image":"materiales/disyuntorCHINT.jpg"
+    },
+    {
+        "id":18,
+        "producto":"Disyuntor Interruptor Diferencial Bipolar 40a Chint",
+        "precio":"22.500",
+        "image":"materiales/disyuntorDiferencial.jpg"
+    },
+    
+    {
+        "id":19,
+        "producto":"Lámpara Gota LED 7w Luz Fría Sica",
+        "precio":"22.500",
+        "image":"materiales/lamparaLedGota.jpg"
+    },
+    {
+        "id":20,
+        "producto":"Lámpara LED 50w Alta Potencia Luz Fría Etheos",
+        "precio":"5.670",
+        "image":"materiales/lamparaLEDAltaPotenciaEtheos.jpg"
+    },
+    {
+        "id":21,
+        "producto":"Lámpara Foco LED 9w Philips",
+        "precio":"1.500",
+        "image":"materiales/lamparaLEDPhilips.jpg"
+    },
+    {
+        "id":22,
+        "producto":"Plafón LED De Techo 18w Cuadrado Luz Fría Candela",
+        "precio":"6.800",
+        "image":"materiales/luminariaCuadrada.jpg"
+    },
+    {
+        "id":23,
+        "producto":"Plafón LED De Techo Cuadrado 18w Luz Fría Etheos",
+        "precio":"6.600",
+        "image":"materiales/luminariaLed.jpg"
+    },
+    {
+        "id":24,
+        "producto":"Panel Plafón LED Circular 20w Luz Fría  Philips",
+        "precio":"7.000",
+        "image":"materiales/luminariaRedonda.jpg"
+    },
+    
+    {
+        "id":25,
+        "producto":"Multímetro digital con Pantalla Marca UNI-T Modelo UT139C",
+        "precio":"17.400",
+        "image":"materiales/multimetroDigitalUnit.jpg"
+    },
+    {
+        "id":26,
+        "producto":"Tester Multímetro Digital Profesional Con Pantalla Crossmaster",
+        "precio":"26.630",
+        "image":"materiales/multimetroDigitalCrossmaster.jpg"
+    },
+    {
+        "id":27,
+        "producto":"Tester Multímetro Digital M890G Con Pantalla Marca Eaglotest Modelo E101",
+        "precio":"24.630",
+        "image":"materiales/multimetroM890G.jpg"
+    },
+    {
+        "id":28,
+        "producto":"Kit Set Juego Herramientas Destornilladores y Pinzas Black Jack",
+        "precio":"41.999",
+        "image":"materiales/kitBlackJack.jpg"
+    },
+    {
+        "id":29,
+        "producto":"Kit Set Juego Destornilladores Punta Plana Philips",
+        "precio":"32.420",
+        "image":"materiales/kitPhilip.jpg"
+    },
+    {
+        "id":30,
+        "producto":"Kit Set Juego Herramientas Bosch",
+        "precio":"38.640",
+        "image":"materiales/kitDestornilladorPinza.jpg"
+    },
+    
+    {
+        "id":31,
+        "producto":"Casco de Trabajo Libus Milenium Con Arnés Plástico",
+        "precio":"7.500",
+        "image":"materiales/cascoProtector.jpg"
+    },
+    {
+        "id":32,
+        "producto":"Casco de Trabajo Libus Milenium Con Gafas",
+        "precio":"16.450",
+        "image":"materiales/cascoConGafas.jpg"
+    },
+    {
+        "id":33,
+        "producto":"Gafas de Seguridad Libus Ecoline",
+        "precio":"9.100",
+        "image":"materiales/gafasProtectoras.jpg"
+    },
+    {
+        "id":34,
+        "producto":"Guantes Engomados Antisudor Electricista Negro",
+        "precio":"9.940",
+        "image":"materiales/guantesDielectricosNegro.jpg"
+    },
+    {
+        "id":35,
+        "producto":"Guantes Engomados Antisudor Electricista Blanco",
+        "precio":"9.940",
+        "image":"materiales/guantesDielectricosBlanco.jpg"
+    },
+    {
+        "id":36,
+        "producto":"Guantes Engomados Antisudor Electricista Azul",
+        "precio":"9.940",
+        "image":"materiales/guantesDielectricosAzul.jpg"
+    } 
+   
+]
