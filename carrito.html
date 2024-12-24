@@ -24,8 +24,46 @@
     </nav>
 
     <main>
+        <h2>Tu carrito</h2>
 
-        <h2>Carro de compras</h2>
+        <div id="containerCompra">
+            <section id="comprasCarrito">
+                <div class="itemsCarrito" data-id="">
+                    <div class="presentacion">
+                        <img src="" alt="">
+                    </div>
+                    <div class="selectoresCantidad">
+                        <p></p>
+                        <div class="botones">
+                            <button class="disminuir">-</button>
+                            <p class="cantidadProductos"></p>
+                            <button class="aumentar">+</button>
+                        </div>
+                    </div>
+                    <div class="eliminarYPrecio">
+                        <p>$</p>
+                        <button class="eliminar">Eliminar</button>
+                    </div>
+                </div>
+            </section>
+            <section id="detalleCarrito">
+                <div class="detalleCompra">
+                    <h3>Resumen de compra</h3>
+                    <div class="subtotal">
+                       <p>Subtotal</p>
+                       <p>$2000</p>
+                    </div>
+                    <div class="total">
+                        <p>Total</p>
+                        <p>$1500</p>
+                    </div>  
+                </div>                     
+                <div class="botonesCompra">
+                    <button class="finalizarCompra">Finalizar Compra</button>
+                    <button class="continuarCompra">Continuar comprando</button>
+                </div>
+            </section>
+        </div>
 
     </main>
 
@@ -33,6 +71,7 @@
         <p>©2024 Alvarez Melina. Todos los derechos reservados.</p>
     </footer>
     
+    <script src="./scripts/productos.js"></script>
     
 </body>
 </html>
