@@ -39,7 +39,7 @@ const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 document.addEventListener('DOMContentLoaded', () => {
     cargarCarrito();
-    /*mostrarCarrito();*/
+    mostrarCarrito();
     funcionamientoBotones();
     actualizarTotal();
 });
@@ -69,16 +69,15 @@ function cargarCarrito(){
                 carrito.push(item);
             }
             localStorage.setItem("carrito", JSON.stringify(carrito));
-            mostrarCarrito();  
         }
+
+    
     })
 }
 
 //Muestra visualmente los productos
 function mostrarCarrito() {
     const itemsCarrito = document.querySelector("#comprasCarrito");
-
-    /*cargarCarrito();*/
     
     if (carrito.length === 0) {
         itemsCarrito.innerHTML = "<h2>No hay productos en tu carrito</h2>";
@@ -106,8 +105,9 @@ function mostrarCarrito() {
                         </div>
                     </div>
             `;
-
             itemsCarrito.innerHTML += html;
+            actualizarTotal();
+            actualizarContador();
     });
 
     }
@@ -142,9 +142,11 @@ function funcionamientoBotones(){
 
         //Eliminar producto del carrito
         if(event.target.classList.contains('eliminar')){
-            const nuevoCarrito = carrito.filter((item) => item.id != id);
+            let nuevoCarrito = carrito.filter((item) => item.id != id);
             localStorage.setItem("carrito", JSON.stringify(nuevoCarrito));
             mostrarCarrito();
+            /*actualizarTotal();*/
+            /*actualizarContador()*/ 
         }
     
     });
@@ -155,17 +157,31 @@ function actualizarTotal(){
     let totalPrecio = document.querySelector('#totalPrecio');
     let subtotalPrecio = document.querySelector('#subtotalPrecio');
     let total = 0;
+    let decimales = 2;
 
-    carrito.forEach((producto) => {
-        total += producto.precio * producto.cantidad;
-    })
-
-    totalPrecio.textContent = "$" + total.toFixed(3);
-    subtotalPrecio.textContent = "$" + total.toFixed(3);
-
-    mostrarCarrito();
+    if(carrito.length >= 1){
+        carrito.forEach((producto) => {
+            total += producto.precio * producto.cantidad;
+        });
+        decimales = 3;
+    
+    }
+    totalPrecio.textContent = "$" + total.toFixed(decimales);
+    subtotalPrecio.textContent = "$" + total.toFixed(decimales);
+    
 }
 
+function actualizarContador(){
+    const contador = document.querySelector('.contador');
+    let cantidad = 0;
+
+    if(carrito.length >= 1){
+        carrito.forEach((producto) => {
+            cantidad += producto.cantidad;
+        })
+    }
+    contador.textContent = cantidad.toString();
+}
 
 
 

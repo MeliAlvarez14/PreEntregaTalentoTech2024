@@ -47,6 +47,20 @@ h2{
     margin-left: 100px;
 }
 
+.contador{
+    color: #ffffff;
+    background-color:#0095ff;
+    border-radius: 50%;
+    
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+
 #containerCompra{
     display: flex;
     flex-direction: row;
@@ -194,7 +208,7 @@ footer{
 @media screen and (max-width: 1012px){
 
     body{
-        min-height: 233vh;
+        min-height: 200vh;
     }
 
     h2{
