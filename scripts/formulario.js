@@ -10,7 +10,6 @@ formulario.addEventListener('submit', (evento) => {
     let patronTel = /^[+]?\d{1,3}?[-.\s]?(\(?\d{2,3}\)?[-.\s]?)?[\d]{3}[-.\s]?[\d]{4}$/;
     let patronCorreo = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
     let errores = [];
-    
 
     if(!patronCorreo.test(correo.value)){
         correo.style.border = '1px solid red';
