@@ -119,7 +119,7 @@ function funcionamientoBotones(){
         const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
         if(event.target.classList.contains("continuarCompra")){
-            window.location.href = './productos.html';
+            window.location.href = './Productos.html';
         }
         
         const id = event.target.closest('.itemsCarrito').dataset.id;
@@ -168,7 +168,6 @@ function actualizarTotal(){
     }
     totalPrecio.textContent = "$" + total.toFixed(decimales);
     subtotalPrecio.textContent = "$" + total.toFixed(decimales);
-    
 }
 
 function actualizarContador(){
